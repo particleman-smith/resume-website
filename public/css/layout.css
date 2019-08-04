@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #1D2624 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -140,7 +140,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #1D2624; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #00A3D7; }
 
 
 /* ------------------------------------------------------------------ */
@@ -187,7 +187,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #1D2624;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -203,7 +203,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #969696;
 }
 #about .profile-pic {
    position: relative;
@@ -219,11 +219,12 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   border: 1px solid #fff;
 }
 #about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
+   border-color: #00A3D7;
+   background-color: #fff;
+   color: #00A3D7;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -794,10 +795,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #1D2624;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #969696;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -850,7 +851,7 @@ call-to-action .button {
 #contact select {
    padding: 18px 20px;
 	color: #eee;
-	background: #373233;
+	background: #969696;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -867,9 +868,9 @@ call-to-action .button {
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color:#fff;
-   background: #0D0D0D;
-	border: none;
+   color:#fff;
+   background-color: transparent;
+   border: 1px solid #fff;
    cursor: pointer;
    height: auto;
    display: inline-block;
@@ -877,7 +878,8 @@ call-to-action .button {
    margin-left: 26%;
 }
 #contact button.submit:hover {
-	color: #0D0D0D;
+   border-color: #00A3D7;
+	color: #00A3D7;
 	background: #fff;
 }
 #contact span.required {
@@ -977,7 +979,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #00A3D7;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
