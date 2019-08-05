@@ -1,10 +1,8 @@
 var gulp = require('gulp');
 // Requires the gulp-sass plugin
 var sass = require('gulp-sass');
-// Watch
-const { watch } = require('gulp');
-// Watcher for sass files
-const sassWatcher = watch(['public/scss/*.scss']);
+// Sass watcher requirement
+const watchSass = require("gulp-watch-sass")
 
 // sass gulp task
 gulp.task('sass', function() {
@@ -13,8 +11,6 @@ gulp.task('sass', function() {
       .pipe(gulp.dest('public/css'))
 });
 
-const watchSass = require("gulp-watch-sass")
- 
 gulp.task("sass:watch", () => watchSass([
   "public/scss/*.scss",
 ])
