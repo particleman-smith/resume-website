@@ -60,32 +60,34 @@
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
+        "name":"C# / .NET",
+        "level":"80%",
+        "years": 3
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"SQL",
+        "level":"55%",
+        "years": 4
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"AngularJS",
+        "level":"70%",
+        "years": 1.5
       },
       {
         "name":"MongoDB",
-        "level":"80%"
+        "level":"55%",
+        "years": 0.5
+      },
+      {
+        "name":"AWS",
+        "level":"25%",
+        "years": 0.5
+      },
+      {
+        "name":"Linux",
+        "level":"50%",
+        "years": 1.5
       }
     ]
   },

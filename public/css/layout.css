@@ -105,7 +105,7 @@ header .social li a {
   color: #fff; }
 
 header .social li a:hover {
-  color: #11ABB0; }
+  color: #00A3D7; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -127,7 +127,7 @@ header .scrolldown a {
   transition: all .3s ease-in-out; }
 
 header .scrolldown a:hover {
-  color: #11ABB0; }
+  color: #00A3D7; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -202,7 +202,7 @@ ul#nav li.current a {
   color: #fff; }
 
 #about a:hover, #about a:focus {
-  color: #11ABB0; }
+  color: #00A3D7; }
 
 #about h2 {
   font: 22px/30px 'opensans-bold', sans-serif;
@@ -252,7 +252,7 @@ ul#nav li.current a {
   overflow: hidden; }
 
 #resume a, #resume a:visited {
-  color: #11ABB0; }
+  color: #00A3D7; }
 
 #resume a:hover, #resume a:focus {
   color: #313131; }
@@ -263,7 +263,7 @@ ul#nav li.current a {
   letter-spacing: 1px; }
 
 #resume h1 span {
-  border-bottom: 3px solid #11ABB0;
+  border-bottom: 3px solid #00A3D7;
   padding-bottom: 6px; }
 
 #resume h3 {
@@ -316,7 +316,7 @@ ul#nav li.current a {
 
 .bars li em {
   font: 15px 'opensans-bold', sans-serif;
-  color: #313131;
+  color: #1D2624;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: normal;
@@ -328,12 +328,15 @@ ul#nav li.current a {
   left: 0;
   top: 0;
   margin: 0;
-  padding-right: 24px;
-  background: #313131;
+  padding-right: 8px;
+  background: #1D2624;
   display: inline-block;
   height: 42px;
   line-height: 42px;
-  border-radius: 3px 0 0 3px; }
+  border-radius: 3px 0 0 3px;
+  color: #00A3D7;
+  text-align: right;
+  font-weight: bold; }
 
 /*
 .git {
@@ -828,7 +831,7 @@ call-to-action .button {
   margin-bottom: 42px; }
 
 #contact a, #contact a:visited {
-  color: #11ABB0; }
+  color: #00A3D7; }
 
 #contact a:hover, #contact a:focus {
   color: #fff; }
@@ -894,7 +897,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
   color: #fff;
-  background-color: #11ABB0; }
+  background-color: #00A3D7; }
 
 #contact button.submit {
   text-transform: uppercase;
@@ -914,7 +917,7 @@ call-to-action .button {
   background: #fff; }
 
 #contact span.required {
-  color: #11ABB0;
+  color: #00A3D7;
   font-size: 13px; }
 
 #message-warning, #message-success {
@@ -929,7 +932,7 @@ call-to-action .button {
   color: #D72828; }
 
 #message-success {
-  color: #11ABB0; }
+  color: #00A3D7; }
 
 #message-warning i,
 #message-success i {
